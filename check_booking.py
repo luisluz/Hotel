@@ -19,7 +19,7 @@ def check_hotel_availability():
     driver = webdriver.Chrome(options=options)
     
     try:
-        url = "https://www.booking.com/hotel/pt/lusitania.html?checkin=2025-12-30&checkout=2026-01-01&group_adults=2&no_rooms=1"
+        url = "https://www.booking.com/hotel/pt/lusitania-parque.pt-pt.html?checkin=2025-12-30&checkout=2026-01-01&group_adults=2&no_rooms=1"
         print(f"[{datetime.now()}] A aceder ao Booking.com...")
         driver.get(url)
         
@@ -69,7 +69,7 @@ def send_notification():
     🎉 Boa notícia! O Hotel Lusitania tem disponibilidade para 30 Dez - 01 Jan!
     
     Aceda JÁ ao Booking.com para reservar:
-    https://www.booking.com/hotel/pt/lusitania.html?checkin=2025-12-30&checkout=2026-01-01&group_adults=2&no_rooms=1
+    https://www.booking.com/hotel/pt/lusitania-parque.pt-pt.html?checkin=2025-12-30&checkout=2026-01-01&group_adults=2&no_rooms=1
     
     Atenção: esta é uma oportunidade rara, reserve rapidamente antes que se esgote novamente!
     """
